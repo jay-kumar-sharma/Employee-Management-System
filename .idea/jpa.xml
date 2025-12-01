@@ -11,6 +11,11 @@
           <package value="com.ems.employeeservice" />
         </packages>
       </persistence-unit>
+      <persistence-unit moduleName="attendance-service" name="Default">
+        <packages>
+          <package value="com.ems.attendanceservice" />
+        </packages>
+      </persistence-unit>
     </persistence-units>
   </component>
 </project>
